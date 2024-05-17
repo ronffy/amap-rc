@@ -1,0 +1,36 @@
+{
+  "name": "amap-rc",
+  "version": "0.1.0",
+  "description": "高德地图 amap 的 react 组件",
+  "main": "src/index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronffy/amap-rc.git"
+  },
+  "keywords": [
+    "amap",
+    "amap-react",
+    "react-amap",
+    "amap-react-components",
+    "高德地图",
+    "地图"
+  ],
+  "files": [
+    "src/**/*"
+  ],
+  "author": "ronffy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ronffy/amap-rc/blob/master/issues"
+  },
+  "homepage": "https://github.com/ronffy/amap-rc/blob/master#README.md",
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  }
+}

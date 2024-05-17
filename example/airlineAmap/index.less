@@ -1,0 +1,65 @@
+.amap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  flex: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+
+  &.pr {
+    padding-right: 600px;
+  }
+
+  :global {
+    .amap-controlbar {
+      bottom: 92px !important;
+      right: 4px !important;
+      top: auto !important;
+      left: auto !important;
+      transform: scale(0.8);
+    }
+
+    .amap-toolbar {
+      right: 33px !important;
+    }
+  }
+}
+
+.amapContainer {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  position: relative;
+}
+
+.markerIcon {
+  display: flex;
+  width: 22px;
+  height: 22px;
+  background: yellow;
+  color: #000;
+  font-size: 14px;
+  align-content: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 2px;
+  user-select: none;
+}
+
+.toolbar {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #ccc;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
